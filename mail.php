@@ -14,9 +14,9 @@
       $mail->Host = "smtp.gmail.com";
       $mail->Port = 465; // or 587
       $mail->IsHTML(true);
-      $mail->Username = "bharat.chandra200@gmail.com";
-      $mail->Password = "Bharat200@";
-      $mail->SetFrom("bharat.chandra200@gmail.com");
+      $mail->Username = "id@gmail.com";
+      $mail->Password = "password";
+      $mail->SetFrom("from@gmail.com");
       $mail->Subject = "DLS : action required";
       $mail->Body = "<h1><i>ACTION REQUIRED!!,  you have new documents📃🧻 to be verified🧐</i></h1>";
       $mail->AddAddress($id);
